@@ -3,10 +3,10 @@
 
 var arr = [10,20,30];
 //Create a function named 'first' that is given 'arr' as the argument and  returns the first item in the given array.
+
 function first(arr){
   return arr[0];
 }
-  //Code Here
 
 
 //Next problem
@@ -19,7 +19,7 @@ var arr = [40,50,60];
 
 function last(arr){
   return arr[arr.length-1];
-}  //Code Here
+}
 
 
 //Next Problem
@@ -32,8 +32,7 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
     for (var i = 0; i <family.length; i++) {
     alert(family[i]);
     }
-  }//Code Here
-
+  }
 
 //Next problem
 
@@ -46,7 +45,7 @@ function reversedLooper(letters){
   for (var i = letters.length-1; i >= 0; i--) {
     alert(letters[i]);
   }
-}  //Code Here
+}
 
 
 //Next Problem
@@ -63,7 +62,6 @@ function evenFinder(nums){
   }
     return nums;
 }
-  //Code Here
 
 
 //Next problem
@@ -84,7 +82,7 @@ function divider(numbersArray){
     }
   }
   return [numbersArray, oddsArray];
-} //Code Here
+}
 
 
 //Next Problem
@@ -106,10 +104,7 @@ var getRandomArbitrary = function() {
       }
     }
     return false;
-
-  }//Code Here
-
-  //Code Here
+  }
 
 
 //Next problem
@@ -121,7 +116,7 @@ var str = 'this is my sentence';
 
 function reverse(str){
   return str.split("").reverse().join("");
-}  //Code Here
+}
 
 
 //Next Problem
@@ -164,7 +159,6 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
   myGroceryList.push(buy);
     return myGroceryList;
   }
-//Code Here
 
 //removeItem(myGroceryList, 'chips') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 //addItem(myGroceryList, 'Jerky') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs', 'Jerky'];
@@ -183,7 +177,7 @@ function maker(){
     array.push(i);
   }
   return array;
-}  //Code Here
+}
 
 
 
@@ -200,7 +194,7 @@ function addTen(numbers){
     num[i] = num[i] * 1 + 10;
   }
   return num;
-}  //Code Here
+}
 
 
 
@@ -226,7 +220,7 @@ function longer(arr1, arr2){
     return arr1;
   }
   return arr2;
-}  //Code Here
+}
 
 
 /*As a continuation of the previous problem, write another function called 'both'.
@@ -243,7 +237,7 @@ function longer(arr1, arr2){
       }
     }
     return newArray;
-  }//Code Here
+  }
 
 
 
@@ -288,7 +282,6 @@ devMountainEmployees.push(tyler);
 devMountainEmployees.push(cahlan);
 devMountainEmployees.push(ryan);
 devMountainEmployees.push(colt);
-  //Code Here
 
 /*Now let's say Cahlan has a mental breakdown and has to take a leave of absence to 'find himself'.
 Loop through your devMountainEmployees until you find cahlan, then remove him from the array.*/
@@ -297,7 +290,7 @@ for (key in devMountainEmployees){
   if (devMountainEmployees[key].name === 'Cahlan'){
     devMountainEmployees.splice (key, 1);
   }
-} //Code Here
+}
 
 
 
@@ -329,7 +322,7 @@ of Data is to have an Array full of objects. */
         password: 'iLoveJavaScript',
         username: 'infiniateLoop'
     }
-  ];//Code Here
+  ];
 
 /*Now add three user objects to your users array. Each user object should contain the
 following properties. name, email, password, username.*/
@@ -355,6 +348,6 @@ Once you find the particular index he's located in, delete him from the array.*/
   for (key in users){
     if (users[key].email === 'tylermcginnis33@gmail.com')
     users.splice(key, 1)
-  }//Code Here
+  }
 
 //The activity we just did is very much how data works in 'the real world'.
